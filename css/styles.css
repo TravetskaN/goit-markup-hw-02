@@ -1,0 +1,189 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --section-bg-our-team-color: #f5f4fa;
+  --secondary-bg-color: #2f303a;
+  --contact-color: rgba(255, 255, 255, 0.6);
+  --text-shadow-color: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --logo-color: #000000;
+}
+
+.body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: Roboto;
+}
+.logo {
+  font-family: Raleway;
+}
+.logo-text-first {
+  color: var(--accent-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logo-text-second {
+  color: var(--logo-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.navigation {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  list-style: none;
+}
+.navigation-link {
+  color: var(--title-text-color);
+}
+.navigation-link.current {
+  color: var(--accent-color);
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+.navigation-contacts {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+.navigation-contacts:focus,
+.navigation-contacts:hover {
+  color: var(--accent-color);
+}
+.hero {
+  background-color: var(--secondary-bg-color);
+}
+.hero-text {
+  color: var(--primary-bg-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.work-styles {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.work-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.direction-work {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team,
+.activity,
+.direction-work-sections {
+  list-style: none;
+}
+.our-team-section {
+  background-color: var(--section-bg-our-team-color);
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+.our-team {
+  color: var(--title-text-color);
+  font-weight: 500;
+}
+.our-team-professions {
+  font-weight: normal;
+}
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+.footer-address {
+  color: var(--primary-bg-color);
+}
+.footer-contacts {
+  color: var(--contact-color);
+  text-shadow: var(--text-shadow-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+/* portfolio styles */
+.filter {
+  background-color: var(--section-bg-our-team-color);
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.filter:hover,
+.filter:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+.portfolio {
+  list-style: none;
+}
+.porfolio-works {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.porfolio-works-views {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
