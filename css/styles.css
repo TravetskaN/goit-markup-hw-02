@@ -74,6 +74,7 @@
   text-transform: uppercase;
 }
 .hero-button {
+  font-family: Roboto;
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
   font-style: normal;
@@ -154,6 +155,7 @@
 }
 /* portfolio styles */
 .filter {
+  font-family: Roboto;
   background-color: var(--section-bg-our-team-color);
   color: var(--title-text-color);
   font-style: normal;
