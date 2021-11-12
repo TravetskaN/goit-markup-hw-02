@@ -143,6 +143,9 @@
 }
 .footer-address-italic {
   font-style: normal;
+  font-weight: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .footer-contacts {
@@ -153,6 +156,7 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+
 /* portfolio styles */
 .filter {
   font-family: Roboto;
