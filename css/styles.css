@@ -14,14 +14,16 @@
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .logo {
   font-family: Raleway;
 }
 .logo-text-first {
   color: var(--accent-color);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -29,15 +31,13 @@
 }
 .logo-text-second {
   color: var(--logo-color);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   list-style: none;
 }
 .navigation {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -55,7 +55,6 @@
 }
 .navigation-contacts {
   color: var(--primary-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -70,7 +69,6 @@
 }
 .hero-text {
   color: var(--primary-bg-color);
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -82,8 +80,7 @@
   font-family: Roboto;
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   display: flex;
@@ -94,24 +91,16 @@
 }
 .work-styles {
   color: var(--title-text-color);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.work-text {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-}
+
 .direction-work {
   color: var(--title-text-color);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -124,16 +113,14 @@
 }
 .our-team-section {
   background-color: var(--section-bg-our-team-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  font-style: normal;
 }
 .our-team {
   color: var(--title-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -141,8 +128,6 @@
   letter-spacing: 0.03em;
 }
 .our-team-professions {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -153,8 +138,7 @@
 }
 .logo-text-second-footer {
   color: var(--primary-bg-color);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -162,15 +146,11 @@
 
 .footer-address {
   color: var(--primary-bg-color);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 .footer-address-italic {
   font-style: normal;
   font-weight: normal;
+  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
@@ -178,8 +158,6 @@
 .footer-contacts {
   color: var(--contact-color);
   text-shadow: var(--text-shadow-color);
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -190,7 +168,6 @@
   font-family: inherit;
   background-color: var(--section-bg-our-team-color);
   color: var(--title-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -208,16 +185,13 @@
 }
 .porfolio-works {
   color: var(--title-text-color);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .porfolio-works-views {
   color: var(--primary-text-color);
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
